@@ -1,0 +1,39 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE和编辑器文件
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+
+# PHP相关
+vendor/
+composer.lock
+.env
+node_modules/
+
+# 日志文件
+*.log
+logs/
+error_logs/
+
+# 临时文件和缓存
+tmp/
+temp/
+.cache/
+cache/
+
+# 配置文件（如果包含敏感信息）
+# config.php
+
+# 上传的用户文件（如果有）
+# uploads/
+
+# 不同环境的特定配置
+.env.local
+.env.development
+.env.test
+.env.production 
